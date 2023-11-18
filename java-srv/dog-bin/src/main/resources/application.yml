@@ -1,0 +1,12 @@
+spring:
+  data:
+    couchbase:
+      auto-index: true
+  couchbase:
+    bootstrap-host: db
+    bucket:
+      name: animal
+      password: f245b655c9da
+  thymeleaf:
+    cache: false
+    mode: HTML  
